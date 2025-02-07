@@ -2,9 +2,12 @@
 from enum import Enum 
 import time
 
+
 class ParkingSpotStatus(Enum):
     AVAILABLE = "available"    
     TAKEN = "taken"
+    
+
 
 class ParkingLot():
     """
