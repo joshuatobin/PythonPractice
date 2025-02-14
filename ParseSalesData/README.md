@@ -21,3 +21,19 @@ You have been given a CSV file containing sales transaction data. Your task is t
 ---
 
 ## Sample CSV Data (`sales_data.csv`)
+TransactionID,Product,Quantity,Price,Date 101,Widget A,5,10.00,2024-01-15 102,Widget B,2,20.00,2024-01-17 103,Widget A,3,10.00,2024-02-01 104,Widget C,1,50.00,2024-02-10 105,Widget A,7,10.00,2024-02-15 106,Widget B,5,20.00,2024-03-05
+
+
+---
+
+## Guidelines
+
+- Use Python’s `csv` module to parse the file.
+- Perform necessary type conversions (e.g., converting prices to `float` and dates to `datetime`).
+- Use dictionaries or collections like `defaultdict` or `Counter` to efficiently track sales per product.
+- Ensure your output is formatted in a readable manner.
+- Sort the products by revenue when listing the top 3 best-selling products.
+
+Try to solve this problem in under **30 minutes**.
+
+---
